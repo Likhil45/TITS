@@ -21,6 +21,7 @@ public class SignupRequest {
   private String password;
 
   public String getUsername() {
+    System.out.println("Checking username");
     return username;
   }
 
@@ -29,6 +30,7 @@ public class SignupRequest {
   }
 
   public String getEmail() {
+    System.out.println("Checking Email");
     return email;
   }
 
